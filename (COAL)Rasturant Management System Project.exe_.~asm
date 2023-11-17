@@ -10,3 +10,49 @@ a4 db 10,13,'                   --            Resturant Management       --'
 a5 db 10,13,'                   --                  System               --'
 a6 db 10,13,'                   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 
+;choose
+b7 db 10,13,'                    All MANUE---$'
+b8 db 10,13,'                    Enter Your Choise: $'
+b19 db 10,13,'                          Enter 1 to Display Schedule: $'
+b34 db 10,13,'                            Peak Your Item: $'
+b35 db 10,13,'                            Enter Quantity You Want : $'
+b36 db 10,13,'                        Invalid Input !! Return the Program$'
+b37 db 10,13,'                            Total Price: $'
+b38 db 10,13,'                    1.All MANUE: $'
+b39 db 10,13,'                    2.Exit: $'
+
+
+;Schedulelist
+b9 db 10,13,'                        1. Breakfast$'
+b10 db 10,13,'                        2. Lunch $'
+b11 db 10,13,'                        3. Dinner$'
+
+;Breakfast List
+b12 db 10,13,'                  ********      Breakfast List      ********$'
+b13 db 10,13,'                       1.Paratha+chai             50/-$'
+b14 db 10,13,'                       2.Alo wala Paratha         50/-$'
+b15 db 10,13,'                       3.Paratha+ Egg             50/-$'
+b16 db 10,13,'                       4.chai+Chicken Curry       50/-$'
+b17 db 10,13,'                       5.Chicken+Nan              50/-$'
+b18 db 10,13,'                       6.Nehari+Paratha           50/-$'
+
+
+;Lunch List
+b20 db 10,13,'                  ********        Lunch List        ********$'
+b21 db 10,13,'                       1.Birani                   100/-$'
+b22 db 10,13,'                       2.Chicken Birani           100/-$'
+b23 db 10,13,'                       3.Alo matter               100/-$'
+b24 db 10,13,'                       4.Rice+Lopiia              100/-$'
+b25 db 10,13,'                       5.Rice+Chicken             100/-$'
+b26 db 10,13,'                       6.Rice+Salad               100/-$'
+
+
+;Dinner List
+b27 db 10,13,'                  ********        Dinner List       ********$'
+b28 db 10,13,'                       1.ALo kimma+Naan          200/-$'
+b29 db 10,13,'                       2.Bhindi ki sabzi         200/-$'
+b30 db 10,13,'                       3.Polaw+Mutton            200/-$'
+b31 db 10,13,'                       4.Rice+ Fish Fry          200/-$'
+b32 db 10,13,'                       5.7up+looki ki sabzi      200/-$'
+b33 db 10,13,'                       6.Mixed Vegetable         200/-$'
+
